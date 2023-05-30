@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-image: url(../Img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+}
+body:before{
+    opacity: 0,10;
+}
+header{
+    background-color: red;
+    padding: 30px 0;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+}
+nav{
+    background-color: rgb(218, 33, 0);
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: black;
+}
+footer{
+    background-color: blanchedalmond;
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 110px;
+}
+nav ul li a.activo{
+    background-color: black;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*inicio de generos */
+h3{
+    font-size: 30px;
+    color: black;
+}
+.generos p{
+    font-size: 15px;
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.76);
+}
+.anime{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: red;
+}
+.animes{
+    display: flex;
+    justify-content: space-around;
+}
+
+div div img{
+    width: 170px;
+}
+.anime h4{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+    font-size: 25px;
+}
+.anime p{
+    color:aliceblue;
+    font-size: 12px;
+}
+/*fin de generos */
+/*inicio de contacto*/
+.contacto p{
+    font-size: 15px;
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.76);
+}
+.contactos{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.formulario p label{
+    min-width: 90px;
+    background-color:rgba(255, 0, 0, 0.76) ;
+}
+.formulario p input,
+.formulario p textarea{
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 3px solid #999;
+    font-size: 16px;
+    padding: 6px 10px;
+}
+.formulario textarea{
+    resize: none;
+    height: 20px;
+}
+/*fin de Contacto*/
+@media (max-width: 700px){
+    header img{
+        width: 100px;
+    }
+    header h1{
+        color: white;
+        font-size: 20px;
+        font-weight: 50;
+        font-style: italic;
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+        margin-left: 10px;
+    }
+    h3{
+        font-size: 15px;
+        color: black;
+    }
+    .generos p{
+        font-size: 8px;
+        color: aliceblue;
+        background-color: rgba(255, 0, 0, 0.76);
+    }
+    .anime{
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        width: 20%;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: red;
+    }
+    .animes{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    div div img{
+        width: 95px;
+    }
+    .anime h4{
+        margin: 0;
+        font-weight: normal;
+        color: black;
+        font-size: 15px;
+    }
+    .anime p{
+        color:aliceblue;
+        font-size: 8px;
+    }
+    .contacto p{
+        font-size: 9px;
+        color: aliceblue;
+        background-color: rgba(255, 0, 0, 0.76);
+    }
+    .contactos{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+    .formulario p label{
+        min-width: 60px;
+        background-color:rgba(255, 0, 0, 0.76) ;
+    }
+    .formulario p input,
+    .formulario p textarea{
+        width: 100%;
+        background: #ddd;
+        border-radius: 5px;
+        border: 3px solid #999;
+        font-size: 12px;
+        padding: 4px 5px;
+    }
+    .formulario textarea{
+        resize: none;
+        height: 10px;
+    }
+
+}
