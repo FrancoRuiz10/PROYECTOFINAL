@@ -134,13 +134,13 @@ div div img{
     height: 20px;
 }
 /*fin de Contacto*/
-@media (max-width: 700px){
+@media (max-width: 801px){
     header img{
         width: 100px;
     }
     header h1{
         color: white;
-        font-size: 20px;
+        font-size: px;
         font-weight: 50;
         font-style: italic;
         display: inline-block;
@@ -149,40 +149,133 @@ div div img{
         margin-left: 10px;
     }
     h3{
-        font-size: 15px;
+        font-size: 35px;
         color: black;
     }
     .generos p{
-        font-size: 8px;
+        font-size: 20px;
         color: aliceblue;
         background-color: rgba(255, 0, 0, 0.76);
     }
     .anime{
         border: 1px solid #ccc;
         border-radius: 6px;
-        width: 20%;
+        width: 60%;
         text-align: center;
-        padding: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
         box-sizing: border-box;
         background-color: red;
+        font-size: 100px;
     }
     .animes{
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+        align-items: center;
     }
     
     div div img{
-        width: 95px;
+        width: 220px;
     }
     .anime h4{
         margin: 0;
         font-weight: normal;
         color: black;
-        font-size: 15px;
+        font-size: 30px;
     }
     .anime p{
         color:aliceblue;
-        font-size: 8px;
+        font-size: 16px;
+    }
+    .contacto p{
+        font-size: 20px;
+        height: 100%;
+        color: aliceblue;
+        background-color: rgba(255, 0, 0, 0.76);
+    }
+    .contactos{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+    .formulario p label{
+        min-width: 60px;
+        background-color:rgba(255, 0, 0, 0.76) ;
+    }
+    .formulario p input,
+    .formulario p textarea{
+        width: 100%;
+        background: #ddd;
+        border-radius: 5px;
+        border: 3px solid #999;
+        font-size: 12px;
+        padding: 4px 5px;
+    }
+    .formulario textarea{
+        resize: none;
+        height: 10px;
+    }
+
+    footer{
+        margin-top: 839px;
+    }
+
+}
+/* @media (max-width: 501px){
+    header img{
+        width: 90px;
+    }
+    header h1{
+        color: white;
+        font-size: px;
+        font-style: italic;
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+        margin-left: 10px;
+    }
+    h3{
+        font-size: 35px;
+        color: black;
+    }
+    .generos p{
+        font-size: 20px;
+        color: aliceblue;
+        background-color: rgba(255, 0, 0, 0.76);
+    }
+    .anime{
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        width: 60%;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        background-color: red;
+        font-size: 100px;
+    }
+    .animes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px;
+        align-items: center;
+    }
+    
+    div div img{
+        width: 220px;
+    }
+    .anime h4{
+        margin: 0;
+        font-weight: normal;
+        color: black;
+        font-size: 30px;
+    }
+    .anime p{
+        color:aliceblue;
+        font-size: 16px;
     }
     .contacto p{
         font-size: 9px;
@@ -212,4 +305,4 @@ div div img{
         height: 10px;
     }
 
-}
+} */

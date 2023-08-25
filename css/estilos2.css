@@ -101,7 +101,7 @@ main div p{
     color: white;
     background-color: rgba(255, 0, 0, 0.76);
 }
-@media (max-width: 700px){
+@media (max-width: 801px){
     header img{
         width: 100px;
     }
@@ -137,6 +137,26 @@ main div p{
         color: white;
         font-size: 25px;
         font-weight: 900px;
+    }
+    footer{
+        margin-top: 680px;
+    }
+}
+@media (max-width: 501px){
+    header img{
+        width: 90px;
+    }
+    header h1{
+        color: white;
+        font-size: px;
+        font-style: italic;
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+        margin-left: 10px;
+    }
+    footer{
+        margin-top: 260px;
     }
 }
 /*fin de ¿que es ? */

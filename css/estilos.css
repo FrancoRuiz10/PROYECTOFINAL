@@ -87,7 +87,7 @@ main div div p{
     color: white;
     background-color: rgba(255, 0, 0, 0.76);
 }
-@media (max-width: 700px){
+@media (max-width: 801px){
     header img{
         width: 100px;
     }
@@ -101,14 +101,54 @@ main div div p{
         bottom: 15px;
         margin-left: 10px;
     }
-    main div img{
-        height: 200px;
-        width: 570px;
+    .banner img{
+        height: 300px;
+        width: 710px;
     }
     main div div img{
-        width: 250px;
+        width: 300px;
         height: 170px;
+        margin-right: 100px;
+    }
+    h2{
+        background-color: red;
+        width: 42%;
+        height: 30px;
+    }
+    footer{
+        margin-top: 520px;
+    }
+}
+@media (max-width: 501px){
+    header img{
+        width: 90px;
+    }
+    header h1{
+        color: white;
+        font-size: px;
+        font-style: italic;
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+        margin-left: 10px;
+    }   
+    .banner img{
+        height: 200px;
+        width: 495px;
+    }
+    main div div img{
+        width: 300px;
+        height: 170px;
+        margin-right: 100px;
+    }
+    h2{
+        background-color: red;
+        width: 102%;
+        height: 30px;
+    }
+    footer{
+        
+        margin-top: 610px;
     }
 }
 /* Fin de estilo de inicio*/
-
